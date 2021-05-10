@@ -1,6 +1,10 @@
-.App {
-  text-align: center;
-}
+/* body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #151b29;
+} */
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +39,187 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#circle {
+  height: 200px;
+  width: 200px;
+  background-color: olivedrab;
+  border: 1px solid;
+  display: inline-block;
+  transition: background-color 3s 1s, border-radius 1s;
+}
+
+#circle:hover {
+  background-color: blue;
+  border-radius: 50%;
+}
+
+/* section div {
+  height: 100px;
+  width: 100px;
+  background-color: turquoise;
+  margin: 20px 0;
+  transition: margin-left 3s;
+} */
+
+/* section:hover div {
+  margin-left: 500px;
+} */
+
+/* div:nth-of-type(1) {
+  transition-timing-function: ease-in;
+}
+div:nth-of-type(2) {
+  transition-timing-function: ease-out;
+}
+div:nth-of-type(3) {
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+div:nth-of-type(4) {
+  transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+} */
+
+#transforms1 h1 {
+  background-color: green;
+  border: 5px solid blue;
+  color: tan;
+  padding: 0.7 em;
+  width: 300px;
+  font-size: 1.8 em;
+  text-align: center;
+  margin: 20px auto;
+  font-family: Courier new;
+  font-weight: lighter;
+  transition: 3s;
+}
+
+#transforms1 h1:nth-of-type(2n) {
+  background-color: orange;
+}
+
+#transforms1 h1:nth-of-type(3n) {
+  background-color: red;
+}
+
+#transforms1 h1:nth-of-type(4n) {
+  background-color: yellow;
+}
+
+#transforms1:nth-of-type(1) h1:nth-of-type(1):hover {
+  transform: rotate(45deg) scale(1.2);
+}
+#transforms1:nth-of-type(1) h1:nth-of-type(2) {
+  transform: scale(0.5);
+}
+#transforms1:nth-of-type(1) h1:nth-of-type(3) {
+  transform: translateX(200px);
+}
+#transforms1:nth-of-type(1) h1:nth-of-type(4) {
+  transform: translate(-200px, 100px);
+}
+
+#hover-button button {
+  background: none;
+  color: #ffa260;
+  border: 2px solid;
+  padding: 1em 2em;
+  font-size: 1em;
+  transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+
+#hover-button button:hover {
+  border-color: #f1ff5c;
+  color: white;
+  box-shadow: 0px 0.5em 0.5em -0.4em #f1ff5c;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+}
+
+#background section {
+  width: 80%;
+  height: 800px;
+  margin: 0 auto;
+  /* background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Monasterio_Khor_Virap%2C_Armenia%2C_2016-10-01%2C_DD_25.jpg/800px-Monasterio_Khor_Virap%2C_Armenia%2C_2016-10-01%2C_DD_25.jpg'); */
+  /* background-size: contain;
+  background-position: right; */
+  background: center/40% no-repeat
+      url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Monasterio_Khor_Virap%2C_Armenia%2C_2016-10-01%2C_DD_25.jpg/800px-Monasterio_Khor_Virap%2C_Armenia%2C_2016-10-01%2C_DD_25.jpg'),
+    blue;
+  font-family: 'Oi', cursive;
+}
+
+#background section h1 {
+  font-size: 100px;
+  color: white;
+}
+
+#cssblog img {
+  width: 30%;
+  height: 400px;
+  object-fit: fill;
+  margin: calc(10% / 6);
+}
+
+#cssblog nav {
+  text-transform: uppercase;
+  border-bottom: 2px solid #f1f1f1;
+  width: 30%;
+  margin-left: 1.6666%;
+  padding: 20px 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+}
+
+#flexbox #container div {
+  width: 100px;
+  height: 100px;
+  /* font-size: 4em; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 100px;
+}
+
+#flexbox #container div:nth-of-type(1) {
+  background-color: #80ffdb;
+  flex-grow: 1;
+}
+
+#flexbox #container div:nth-of-type(2) {
+  background-color: #63dfdf;
+  /* align-self: flex-start; */
+}
+
+#flexbox #container div:nth-of-type(3) {
+  background-color: #48bfe3;
+}
+
+#flexbox #container div:nth-of-type(4) {
+  background-color: #5390d9;
+  /* align-self: flex-end; */
+}
+
+#flexbox #container div:nth-of-type(5) {
+  background-color: #6930c3;
+  flex-grow: 2;
+}
+
+#flexbox h1 {
+  text-align: center;
+}
+
+#container {
+  background-color: #003049;
+  width: 90%;
+  /* height: 300px; */
+  margin: 0 auto;
+  border: 5px solid #003049;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap-reverse; */
+  /* align-content: center; */
 }
