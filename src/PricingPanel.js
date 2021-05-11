@@ -1,3 +1,7 @@
+import mountain1 from './mountain1.jpg'
+import mountain2 from './mountain2.jpg'
+import mountain3 from './mountain3.jpg'
+
 function PricingPanel () {
   return (
     <div>
@@ -6,7 +10,7 @@ function PricingPanel () {
     <div class="panel pricing-table">
       
       <div class="pricing-plan">
-        <img src="https://s22.postimg.cc/8mv5gn7w1/paper-plane.png" alt="" class="pricing-img" />
+        <img className="image" src={mountain1} />
         <h2 class="pricing-header">Personal</h2>
         <ul class="pricing-features">
           <li class="pricing-features-item">Custom domains</li>
@@ -17,7 +21,7 @@ function PricingPanel () {
       </div>
       
       <div class="pricing-plan">
-        <img src="https://s28.postimg.cc/ju5bnc3x9/plane.png" alt="" class="pricing-img" />
+        <img className="image" src={mountain2} />
         <h2 class="pricing-header">Small team</h2>
         <ul class="pricing-features">
           <li class="pricing-features-item">Never sleeps</li>
@@ -28,7 +32,7 @@ function PricingPanel () {
       </div>
       
       <div class="pricing-plan">
-        <img src="https://s21.postimg.cc/tpm0cge4n/space-ship.png" alt="" class="pricing-img" />
+        <img className="image" src={mountain3} />
         <h2 class="pricing-header">Enterprise</h2>
         <ul class="pricing-features">
           <li class="pricing-features-item">Dedicated</li>
