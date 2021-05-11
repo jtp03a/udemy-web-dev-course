@@ -4,7 +4,9 @@ import './App.css';
 // import HoverButton from './HoverButton'
 // import Background from './Background'
 // import CSSBlog from './CSSBlog'
-import Flexbox from './Flexbox'
+// import Flexbox from './Flexbox'
+// import Responsive from './responsive'
+import PricingPanel from './PricingPanel'
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
       {/* <HoverButton /> */}
       {/* <Background /> */}
       {/* <CSSBlog /> */}
-      <Flexbox />
+      {/* <Flexbox /> */}
+      {/* <Responsive /> */}
+      <PricingPanel />
     </div>
   );
 }

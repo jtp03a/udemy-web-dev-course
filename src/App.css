@@ -6,7 +6,7 @@
   background-color: #151b29;
 } */
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -39,9 +39,9 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
-#circle {
+/* #circle {
   height: 200px;
   width: 200px;
   background-color: olivedrab;
@@ -53,7 +53,7 @@
 #circle:hover {
   background-color: blue;
   border-radius: 50%;
-}
+} */
 
 /* section div {
   height: 100px;
@@ -80,7 +80,7 @@ div:nth-of-type(4) {
   transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
 } */
 
-#transforms1 h1 {
+/* #transforms1 h1 {
   background-color: green;
   border: 5px solid blue;
   color: tan;
@@ -126,42 +126,42 @@ div:nth-of-type(4) {
   padding: 1em 2em;
   font-size: 1em;
   transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
-}
+} */
 
-#hover-button button:hover {
+/* #hover-button button:hover {
   border-color: #f1ff5c;
   color: white;
   box-shadow: 0px 0.5em 0.5em -0.4em #f1ff5c;
   transform: translateY(-0.25em);
   cursor: pointer;
-}
+} */
 
-#background section {
+/* #background section {
   width: 80%;
   height: 800px;
   margin: 0 auto;
-  /* background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Monasterio_Khor_Virap%2C_Armenia%2C_2016-10-01%2C_DD_25.jpg/800px-Monasterio_Khor_Virap%2C_Armenia%2C_2016-10-01%2C_DD_25.jpg'); */
-  /* background-size: contain;
-  background-position: right; */
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Monasterio_Khor_Virap%2C_Armenia%2C_2016-10-01%2C_DD_25.jpg/800px-Monasterio_Khor_Virap%2C_Armenia%2C_2016-10-01%2C_DD_25.jpg');
+  background-size: contain;
+  background-position: right;
   background: center/40% no-repeat
       url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Monasterio_Khor_Virap%2C_Armenia%2C_2016-10-01%2C_DD_25.jpg/800px-Monasterio_Khor_Virap%2C_Armenia%2C_2016-10-01%2C_DD_25.jpg'),
     blue;
   font-family: 'Oi', cursive;
-}
+} */
 
-#background section h1 {
+/* #background section h1 {
   font-size: 100px;
   color: white;
-}
+} */
 
-#cssblog img {
+/* #cssblog img {
   width: 30%;
   height: 400px;
   object-fit: fill;
   margin: calc(10% / 6);
-}
+} */
 
-#cssblog nav {
+/* #cssblog nav {
   text-transform: uppercase;
   border-bottom: 2px solid #f1f1f1;
   width: 30%;
@@ -169,50 +169,58 @@ div:nth-of-type(4) {
   padding: 20px 0;
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
-}
+} */
 
-#flexbox #container div {
+/* #flexbox #container div {
   width: 100px;
   height: 100px;
-  /* font-size: 4em; */
+  font-size: 4em;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-basis: 100px;
-}
+  flex-basis: 600px;
+} */
 
-#flexbox #container div:nth-of-type(1) {
+/* #flexbox #container div:nth-of-type(1) {
   background-color: #80ffdb;
   flex-grow: 1;
-}
-
+  flex-shrink: 1;
+} */
+/* 
 #flexbox #container div:nth-of-type(2) {
   background-color: #63dfdf;
-  /* align-self: flex-start; */
-}
+  align-self: flex-start;
+  flex-shrink: 2;
+} */
 
-#flexbox #container div:nth-of-type(3) {
+/* #flexbox #container div:nth-of-type(3) {
   background-color: #48bfe3;
-}
+  flex-shrink: 3;
+} */
 
-#flexbox #container div:nth-of-type(4) {
+/* #flexbox #container div:nth-of-type(4) {
   background-color: #5390d9;
-  /* align-self: flex-end; */
-}
+  align-self: flex-end;
+  flex-shrink: 4;
+} */
 
-#flexbox #container div:nth-of-type(5) {
+/* #flexbox #container div:nth-of-type(5) {
   background-color: #6930c3;
-  flex-grow: 2;
-}
+  flex-shrink: 5;
+} */
 
-#flexbox h1 {
+/* #flexbox h1 {
   text-align: center;
 }
 
-#container {
+#flexbox h2 {
+  text-align: center;
+} */
+
+/* #container {
   background-color: #003049;
   width: 90%;
-  /* height: 300px; */
+  height: 300px;
   margin: 0 auto;
   border: 5px solid #003049;
   display: flex;
@@ -220,6 +228,92 @@ div:nth-of-type(4) {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  /* flex-wrap: wrap-reverse; */
-  /* align-content: center; */
+  flex-wrap: wrap-reverse;
+  align-content: center;
+} */
+
+/* #flexbox main {
+  width: 80%;
+  margin: 0 auto;
+  border: 5px solid black;
+  height: 500px;
+  display: flex
 }
+
+#flexbox main .sidebar {
+  background-color: purple;
+  border: 2px solid white;
+  flex:1 2 300px;
+}
+
+#flexbox main .maincontent {
+  background-color: green;
+flex: 2 1 800px;
+} */
+
+/* @media (min-width: 600px) and (max-width: 800px) {
+  h1 {
+    color: purple
+  }
+} */
+
+/* @media (max-width: 500px) {
+  h1 {
+    color: red
+  }
+} */
+
+/* @media (orientation: landscape) {
+  body{
+    background-color: magenta;
+  }
+} */
+/* #mediaqueries h1 {
+  text-align: center;
+  font-size: 6em;
+}
+
+#mediaqueries nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  #mediaqueries h1 {
+    font-size: 4em
+  }
+  #mediaqueries nav {
+    flex-direction: column;
+    align-items: center
+  }
+  #mediaqueries nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 576px) {
+  #mediaqueries h1 {
+    font-size: 3em
+  }
+}
+
+#mediaqueries ul,li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+#mediaqueries li {
+  margin-left: 5px;
+  margin-right: 5px
+}
+
+#mediaqueries ul {
+  flex: 1;
+  max-width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+} */
+
+

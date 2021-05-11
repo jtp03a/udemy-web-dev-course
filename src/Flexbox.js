@@ -3,13 +3,19 @@ function Flexbox() {
     <div id="flexbox">
       <h1>Let's Play With Flexbox</h1>
       <section id="container">
-        <div>H</div>
-        <div>E</div>
-        <div>L</div>
-        <div>L</div>
-        <div>O</div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
       </section>
 
+      <h2>Second Example</h2>
+      <main>
+        <section className="sidebar"></section>
+        <section className="maincontent"></section>
+        <section className="sidebar"></section>
+      </main>
     </div>
   );
 }
